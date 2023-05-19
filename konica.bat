@@ -6,7 +6,7 @@
 C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US\Prnport.vbs -a -r KONICA-ip-Port -h 10.102.216.230 -o lpr -n 515 -q print -y public -i 1
 
 
-C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US\prndrvr.vbs -a -m "KONICA MINOLTA C650iSeriesPCL" -e "Windows x64" -i D:\C550i\KOAXCJ__.inf -h D:\C550i
+C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US\prndrvr.vbs -a -m "KONICA MINOLTA C650iSeriesPCL" -e "Windows x64" -i c:\Users\Public\.temp\C550i\KOAXCJ__.inf -h c:\Users\Public\.temp\C550i
 
 
 C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US\prnmngr.vbs -a -m "KONICA MINOLTA C650iSeriesPCL" -r KONICA-ip-Port -p "103 (SGW) KONICA MINOLTA bizhub C550i"
