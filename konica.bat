@@ -41,6 +41,9 @@ C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US
 C:\Windows\System32\Cscript.exe C:\Windows\System32\Printing_Admin_Scripts\en-US\prnmngr.vbs -a -m "KONICA MINOLTA C650iSeriesPCL" -r KONICA-ip-Port -p "103 (SGW) KONICA MINOLTA bizhub C550i"
 
 
+timeout 5 /NOBREAK
+
+
 C:\Windows\System32\rundll32.exe printui.dll,PrintUIEntry /y /n "103 (SGW) KONICA MINOLTA bizhub C550i"
 
 
